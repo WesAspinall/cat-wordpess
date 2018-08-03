@@ -1,8 +1,3 @@
- </div><!-- #main --> 
-
-
-
-
   <?php get_sidebar(); ?>
 
       
