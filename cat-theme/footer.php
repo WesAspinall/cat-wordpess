@@ -1,3 +1,4 @@
+  </div> <!-- #main -->
   <?php get_sidebar(); ?>
 
       
@@ -13,3 +14,7 @@
         </a>
         
       </div><!-- #footer -->
+
+    </div><!-- #container --> 
+  </body>
+</html>
