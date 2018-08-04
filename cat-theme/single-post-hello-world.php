@@ -5,7 +5,7 @@
   <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
     <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-      <p> Single PAGE </p>
+      <p> Single PAGE SPECIFIC TO HELLO WORLD </p>
       <p><?php the_content();?></p>
     <span class="post-meta">Posted by <a href="#"><?php the_author(' ');?></a> <?php the_time('l, F jS, Y')?></span>
 
