@@ -7,6 +7,7 @@
     <title><?php bloginfo('name'); ?> | <?php bloginfo('description'); ?></title>
     <link rel="stylesheet" href="<?php bloginfo(template_directory); ?>/css/normalize.css">
     <link rel="stylesheet" href="<?php bloginfo(template_directory); ?>/css/main.css">
+    <?php wp_head(); ?>
   </head>
     <body <?php body_class(); ?>>
   
