@@ -15,5 +15,6 @@ add_action('widgets_init','cat_widgets_init');
     )); 
   }
 
+  register_nav_menu('main', 'Main Navigation Menu');
 
 ?>
