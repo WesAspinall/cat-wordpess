@@ -15,8 +15,10 @@
     <p>
       <?php _e('Sorry, no posts matched your criteria.'); ?>
     </p>
-  <?php endif; ?>
-  
+    <?php endif; ?>
+    <?php edit_post_lin('Edit this post'); ?>
+    <?php the_category(); ?>
+    <?php the_tags( 'Tags: ', ', ', '<br />' ); ?> 
     <?php comments_template(); ?> 
 
 <?php get_footer(); ?>
